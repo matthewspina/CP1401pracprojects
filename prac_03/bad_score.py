@@ -5,7 +5,6 @@ Broken program to determine score status
 
 
 def main():
-
     def scores(score):
         if score < 0 or score > 100:
             score_answer = "Invalid score"
