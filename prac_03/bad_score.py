@@ -11,7 +11,7 @@ def main():
         elif score > 90:
             score_answer = "passable"
         elif score > 50:
-            score_answer = "excellent!"
+            score_answer = "Excellent!"
         else:
             score_answer = "bad"
         return score_answer
