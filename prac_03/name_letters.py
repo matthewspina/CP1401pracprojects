@@ -12,7 +12,6 @@ def get_name():
     return name
 
 
-
 def print_name(name, number):
     print(name[::number])
 
