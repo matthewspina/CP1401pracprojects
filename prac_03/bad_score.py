@@ -18,6 +18,8 @@ def main():
 
     score = float(input("Enter score: "))
     scores(score)
+    answer = scores(score)
+    print (answer)
 
 
 

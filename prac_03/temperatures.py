@@ -23,13 +23,13 @@ def main():
         if choice == "C":
             celsius = float(input("Celsius: "))
             celsius_to_fahrenheit(celsius)
-            fahrenheit =celsius_to_fahrenheit(celsius)
+            fahrenheit = celsius_to_fahrenheit(celsius)
             print(fahrenheit)
 
         elif choice == "F":
             fahrenheit = float(input("Fahrenheit: "))
             fahrenheit_to_celsius(fahrenheit)
-            celsius=fahrenheit_to_celsius(fahrenheit)
+            celsius = fahrenheit_to_celsius(fahrenheit)
             print(celsius)
 
         else:
@@ -37,9 +37,6 @@ def main():
         print(menu)
         choice = input(">>> ").upper()
     print("Thank you.")
-
-
-
 
 
 main()
