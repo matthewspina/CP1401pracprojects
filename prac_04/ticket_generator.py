@@ -7,6 +7,6 @@ for i in range(pick_number):
         number = (random.randint(1,45))
         quick_pick.append(number)
     quick_pick.sort()
-    print (quick_pick)
+    print (" ".join(str(j) for j in quick_pick))
 
 
