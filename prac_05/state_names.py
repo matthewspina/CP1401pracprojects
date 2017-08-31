@@ -6,7 +6,9 @@ File needs reformatting
 
 STATE_NAMES = {"QLD": "Queensland", "NSW": "New South Wales", "NT": "Northern Territory", "WA": "Western Australia",
                "ACT": "Australian Capital Territory", "VIC": "Victoria", "TAS": "Tasmania"}
-# print(STATE_NAMES)
+
+for k, v in STATE_NAMES.items():
+    print("{:<4s} is {:<1s}".format(k,v))
 
 state = input("Enter short state: ").upper()
 while state != "":
@@ -15,8 +17,6 @@ while state != "":
     else:
         print("Invalid short state")
     state = input("Enter short state: ").upper()
-i = 0
-for k, v in STATE_NAMES.items():
-    print("{:<4s} is {:<1s}".format(k,v))
+
 
 
