@@ -5,9 +5,9 @@ COLOUR_NAMES = {"AliceBlue": "#f0f8ff", "AntiqueWhite": "#faebd7", "AntiqueWhite
 colour = str(input("Enter colour:"))
 while colour != "":
     if colour in COLOUR_NAMES:
-        print (colour, "is",COLOUR_NAMES[colour])
+        print(colour, "is",COLOUR_NAMES[colour])
     else:
         print("Invalid colour")
-        colour = str(input("Enter colour:"))
+    colour = str(input("Enter colour:"))
 
 
