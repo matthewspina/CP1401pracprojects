@@ -16,7 +16,7 @@ def main():
     print(os.listdir('.'))
 
     # make a new directory
-    # os.mkdir('temp')
+    #os.mkdir('temp')
 
     # loop through each file in the (original) directory
     for filename in os.listdir('.'):
@@ -54,6 +54,22 @@ def get_fixed_filename(filename):
 
     new_name = ""
     # TODO: step-by-step, consider the problem cases and solve them
+    for index,character in enumerate(filename, start=0):
+        if character.islower():
+            new_name += character
+        elif character.isupper():
+            if index != 0:
+                new_name += ("_")
+                new_name += character
+            else:
+                new_name += character
+
+
+
+    print(new_name)
+
+
+
 
     return new_name
 
